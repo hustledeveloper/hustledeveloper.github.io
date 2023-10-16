@@ -41,7 +41,7 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Dilara Şensoyu";
+        document.title = "Ömer Faruk Ere";
         $("#favicon").attr("href","assests/images/hero.jpeg");
     }
     else {
