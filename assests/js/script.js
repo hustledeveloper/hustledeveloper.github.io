@@ -42,18 +42,18 @@ document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
         document.title = "Ömer Faruk Ere";
-        $("#favicon").attr("href","assests/images/hero.jpeg");
+        $("#favicon").attr("href","assests/images/hero.jpg");
     }
     else {
         document.title = "Sayfama Hoşgeldiniz";
-        $("#favicon").attr("href","assests/images/hero.jpeg");
+        $("#favicon").attr("href","assests/images/hero.jpg");
     }
 });
 
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Cyber Security Specialist", "Pentester"],
+        strings: ["Software Developer"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,

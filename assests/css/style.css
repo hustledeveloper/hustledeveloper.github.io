@@ -189,7 +189,7 @@ buradan arka plan rengini değiştirebilirsin
 */
 .home #particles-js{
   position: absolute;
-  background-color: #f8c9ee ;
+  background-color: #f9e87b ;
   top: 0;left: 0;
   height: 100%;
   width: 100%;
@@ -228,7 +228,7 @@ buradan arka plan rengini değiştirebilirsin
 .home .content h3 span{
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: #001aff;
 }
 .home .content p{
   font-size: 2.5rem;
@@ -238,7 +238,7 @@ buradan arka plan rengini değiştirebilirsin
 }
 .home .content p span{
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: rgb(8, 122, 148);
   font-weight: 600;
   padding: 1rem 0;
 }
