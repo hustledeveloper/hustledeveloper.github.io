@@ -53,7 +53,7 @@ function(){
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Software Developer"],
+        strings: ["Java", "Network Engineering", "Python", "PL/SQL", "REST APIs", "B2B Solutions"],
         loop: true,
         typeSpeed: 50,
 		backSpeed: 25,

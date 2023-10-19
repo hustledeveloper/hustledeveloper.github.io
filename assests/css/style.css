@@ -71,9 +71,10 @@ header{
 }
 
 section{
-  min-height:auto;
+  min-height:fit-content;
   padding: 2rem 9%;
 }
+
 
 .heading{
   font-size: 3.5rem;
@@ -189,7 +190,7 @@ buradan arka plan rengini değiştirebilirsin
 */
 .home #particles-js{
   position: absolute;
-  background-color: #f9e87b ;
+  background-color: #ffffff ;
   top: 0;left: 0;
   height: 100%;
   width: 100%;
@@ -456,16 +457,16 @@ buradan arka plan rengini değiştirebilirsin
 
 /* skills section starts */
 .skills{
-  background: linear-gradient(to bottom, #57059e, #4a00e0);
+  background: linear-gradient(to bottom, #ffffff, #ffffff);
 }
 .skills h2{
-  color: #fff;
+  color: #000000;
 }
 .skills .heading span{
-  color: rgb(255, 230, 0);
+  color: rgb(0, 0, 0);
 }
 .skills .container{
-  background: rgba( 0, 0, 22, 0.4);
+  background: rgba(255, 255, 255, 0.4);
   border-radius: 1rem;
   padding: 2rem;
   margin: 1rem;
@@ -836,6 +837,9 @@ buradan arka plan rengini değiştirebilirsin
 
 
 /* experience section starts */
+.experience{
+  background-color: rgb(255, 255, 255);
+}
 .experience .timeline {
   position: relative;
   max-width: 1200px;
@@ -912,7 +916,7 @@ buradan arka plan rengini değiştirebilirsin
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background-color: #e7e4f8;
   position: relative;
   border-radius: 6px;
 }
