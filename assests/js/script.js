@@ -127,3 +127,32 @@ srtop.reveal('.experience .timeline .container',{interval: 400});
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container',{delay: 400});
 srtop.reveal('.contact .container .form-group',{delay: 400});
+
+
+
+ // RSS beslemesinin URL'si (Medium kullanıcı adınızı burada değiştirin)
+        const rssFeedUrl = 'https://medium.com/feed/@suyalcinkaya';
+
+        // RSS beslemesini çekme işlemi
+        fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssFeedUrl}`)
+            .then(response => response.json())
+            .then(data => {
+                const yazilar = data.items;
+
+                // Her bir yazı için liste öğesi oluşturma
+                yazilar.slice(0, 12).forEach(yazi => { // İlk 12 yazıyı alır
+                    const baslik = yazi.title;
+                    const link = yazi.link;
+
+                    const p = document.createElement('p');
+                    p.classList.add('yazi-baslik');
+
+                    const a = document.createElement('a');
+                    a.href = link;
+                    a.target = '_blank';
+                    a.textContent = baslik;
+
+                    p.appendChild(a);
+                    document.getElementById('medium-yazilari').appendChild(p);
+                });
+            });

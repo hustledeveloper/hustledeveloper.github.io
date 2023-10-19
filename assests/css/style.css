@@ -1304,3 +1304,29 @@ form .button-area{
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+
+.medium-container {
+            max-width: 800px;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+        .medium-container h1 {
+            text-align: center;
+        }
+        .medium-container .yazi-listesi {
+            text-align: left;
+        }
+        .yazi-baslik {
+            margin-bottom: 10px;
+        }
+        #tiklayin-buton {
+            text-align: center;
+            margin-top: 20px;
+        }
+        #tiklayin-buton a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
