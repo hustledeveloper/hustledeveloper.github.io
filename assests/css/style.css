@@ -71,7 +71,7 @@ header{
 }
 
 section{
-  min-height:fit-content;
+  min-height:auto;
   padding: 2rem 9%;
 }
 
