@@ -7,7 +7,6 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none; border: none;
-  text-transform:capitalize;
   transition: all .2s linear;
 }
 html{
@@ -207,13 +206,17 @@ buradan arka plan rengini değiştirebilirsin
   padding-top: 1rem;
   z-index: 1;
 }
-.home .image{
-  flex: 1 1 40rem;
-  z-index: 1;
+.home .image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  max-width: 25%;
+  height: auto;
 }
 .home .image img{
   width: 70%;
-  margin-left: 6rem;
+  margin-bottom: 10%;
+  margin-right: 10%;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
@@ -345,6 +348,8 @@ buradan arka plan rengini değiştirebilirsin
 /* about section starts */
 .about {
   background: rgb(255, 255, 255);
+    min-height: 100vh;
+
 }
 .about .row{
   display: flex;
@@ -356,6 +361,7 @@ buradan arka plan rengini değiştirebilirsin
 .about .row .image {
   text-align: center;
   flex: 1 1 35rem;
+
 }
 .about .row .image img{
   margin: 4rem;
@@ -397,7 +403,6 @@ buradan arka plan rengini değiştirebilirsin
   font-weight: 600;
 }
 .about .row .content .box-container .box p{
-  text-transform: none;
 }
 .about .row .content .box-container .box p span{
   color:#011aff;
@@ -458,6 +463,8 @@ buradan arka plan rengini değiştirebilirsin
 /* skills section starts */
 .skills{
   background: linear-gradient(to bottom, #ffffff, #ffffff);
+  min-height: 100vh;
+
 }
 .skills h2{
   color: #000000;
@@ -482,7 +489,7 @@ buradan arka plan rengini değiştirebilirsin
 .skills .container .col{
   position: relative;
   width: 90%;
-  color: #fff;
+  color: #000000;
   margin-top: .5rem;
 }
 .skills .container .col .bar{
@@ -490,7 +497,7 @@ buradan arka plan rengini değiştirebilirsin
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0,0,0,.2);
-  background: rgba( 0, 0, 22, 0.9);
+  background: #e7e4f8;
   transition: .2s;
 }
 .skills .container .col .bar:hover{
@@ -528,57 +535,45 @@ buradan arka plan rengini değiştirebilirsin
   border-radius: 4px;
 }
 
-.skills .container .col .bar .network:before {
-  width: 85%;
-  background: #e03d0b;
-}
-
-.skills .container .col .bar .cryptography:before {
-  width: 75%;
-  background: #2962ff;
-}
-
-.skills .container .col .bar .firewall:before {
+.skills .container .col .bar .java:before {
   width: 80%;
   background: #ffd900;
 }
 
-.skills .container .col .bar .penTesting:before {
-  width: 90%;
-  background: #22E7C3;
+.skills .container .col .bar .react:before {
+  width: 60%;
+  background: #f38b03;
 }
 
-.skills .container .col .bar .linux:before {
+.skills .container .col .bar .network:before {
   width: 70%;
   background: #ffd900;
 }
 
-.skills .container .col .bar .database:before {
-  width: 80%;
+.skills .container .col .bar .sql:before {
+  width: 75%;
   background: #f38b03;
 }
 
-.skills .container .col .bar .incident:before {
-  width: 75%;
-  background: #F96194;
+.skills .container .col .bar .linux:before {
+  width: 60%;
+  background: #f38b03;
 }
 
-.skills .container .col .bar .auditing:before {
-  width: 85%;
-  background: #22E7C3;
+.skills .container .col .bar .c:before {
+  width: 55%;
+  background: #ffd900;
 }
 
-.skills .container .col .bar .threat:before {
+.skills .container .col .bar .clean:before {
+  width: 60%;
+  background: #f38b03;
+}
+
+.skills .container .col .bar .ney:before {
   width: 80%;
-  background: #8054c7;
+  background: #ffd900;
 }
-
-.skills .container .col .bar .hacking:before {
-  width: 90%;
-  background: #e03d0b;
-}
-
-
 
 
 /* skills media queries starts*/
@@ -720,6 +715,8 @@ buradan arka plan rengini değiştirebilirsin
 .work{
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
+    min-height: 100vh;
+
 }
 .work h2{
   color: #fff;
@@ -1192,11 +1189,10 @@ form .button-area{
   font-size: 1.5rem;
   color: #ccc;
   padding: .7rem 0;
-  text-transform: none;
 }
 .footer .box-container .box p i{
   padding-right: 1rem;
-  color: #ffae00;
+  color: #ffffff;
 }
 .footer .box-container .box a{
   font-size: 1.5rem;
@@ -1241,10 +1237,10 @@ form .button-area{
   border-top: .1rem solid #fff3;
 }
 .footer .credit a{
-  color: #ffae00;
+  color: #ffffff;
 }
 .footer .fa{
-    color: #E90606;
+    color: #ffffff;
     margin: 0 .3rem;
     font-size: 1.5rem;
     animation: pound .35s infinite alternate;
@@ -1303,4 +1299,65 @@ form .button-area{
 #scroll-top.active{
   top: calc(100% - 12rem);
 }
-/* scroll top ends */
+
+
+
+/* Medium Tasarımı */
+.medium-container {
+  background: #ffffff;
+  color: #333333;
+    min-height: 100vh;
+
+}
+
+.medium-container .heading span {
+  color: #333333;
+}
+
+.medium-container .container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem;
+  font-size: 15px;
+}
+
+.medium-container .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.medium-container .container .row .medium-yazi {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background: #e7e4f8;
+  transition: 0.2s;
+}
+
+.medium-container a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.medium-container .container .row .medium-yazi:hover {
+  transform: translate(0, -2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.medium-container .container .row .medium-yazi .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.medium-container .container .row .medium-yazi .info i {
+  font-size: 2.5rem;
+}
+
+.medium-container .container .row .medium-yazi .info span {
+  font-size: 1.6rem;
+}
