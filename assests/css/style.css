@@ -7,7 +7,6 @@
   box-sizing: border-box;
   text-decoration: none;
   outline: none; border: none;
-  text-transform:capitalize;
   transition: all .2s linear;
 }
 html{
@@ -210,6 +209,8 @@ buradan arka plan rengini değiştirebilirsin
 .home .image{
   flex: 1 1 40rem;
   z-index: 1;
+  max-width: 35%;
+  max-height: 35%;
 }
 .home .image img{
   width: 70%;
@@ -356,6 +357,7 @@ buradan arka plan rengini değiştirebilirsin
 .about .row .image {
   text-align: center;
   flex: 1 1 35rem;
+
 }
 .about .row .image img{
   margin: 4rem;
@@ -397,7 +399,6 @@ buradan arka plan rengini değiştirebilirsin
   font-weight: 600;
 }
 .about .row .content .box-container .box p{
-  text-transform: none;
 }
 .about .row .content .box-container .box p span{
   color:#011aff;
@@ -1192,11 +1193,10 @@ form .button-area{
   font-size: 1.5rem;
   color: #ccc;
   padding: .7rem 0;
-  text-transform: none;
 }
 .footer .box-container .box p i{
   padding-right: 1rem;
-  color: #ffae00;
+  color: #ffffff;
 }
 .footer .box-container .box a{
   font-size: 1.5rem;
@@ -1241,10 +1241,10 @@ form .button-area{
   border-top: .1rem solid #fff3;
 }
 .footer .credit a{
-  color: #ffae00;
+  color: #ffffff;
 }
 .footer .fa{
-    color: #E90606;
+    color: #ffffff;
     margin: 0 .3rem;
     font-size: 1.5rem;
     animation: pound .35s infinite alternate;

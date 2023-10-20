@@ -41,7 +41,7 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Ömer Faruk Ere";
+        document.title = "Ömer Faruk Eren";
         $("#favicon").attr("href","assests/images/hero.jpg");
     }
     else {
