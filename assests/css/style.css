@@ -1305,6 +1305,10 @@ form .button-area{
 }
 /* scroll top ends */
 
+
+
+
+
 .medium-container {
             max-width: 800px;
             margin: 0 auto;
@@ -1330,3 +1334,12 @@ form .button-area{
             padding: 10px 20px;
             border-radius: 5px;
         }
+.medium-yazi {
+  background-color: #ffffff; /* Siyah arka plan */
+  color: #fff; /* Beyaz metin */
+  padding: 20px; /* İstediğiniz iç boşluk ayarını yapabilirsiniz */
+  border-radius: 5px; /* Kenar yuvarlaklığı ekleyebilirsiniz */
+  margin-bottom: 20px; /* Yazılar arası boşluk */
+  font-size: 15px;
+  font-weight: 800;
+}
