@@ -1303,43 +1303,63 @@ form .button-area{
 #scroll-top.active{
   top: calc(100% - 12rem);
 }
-/* scroll top ends */
 
 
 
-
-
+/* Medium Tasarımı */
 .medium-container {
-            max-width: 800px;
-            margin: 0 auto;
-            font-family: Arial, sans-serif;
-        }
-        .medium-container h1 {
-            text-align: center;
-        }
-        .medium-container .yazi-listesi {
-            text-align: left;
-        }
-        .yazi-baslik {
-            margin-bottom: 10px;
-        }
-        #tiklayin-buton {
-            text-align: center;
-            margin-top: 20px;
-        }
-        #tiklayin-buton a {
-            text-decoration: none;
-            color: #fff;
-            background-color: #007BFF;
-            padding: 10px 20px;
-            border-radius: 5px;
-        }
-.medium-yazi {
-  background-color: #ffffff; /* Siyah arka plan */
-  color: #fff; /* Beyaz metin */
-  padding: 20px; /* İstediğiniz iç boşluk ayarını yapabilirsiniz */
-  border-radius: 5px; /* Kenar yuvarlaklığı ekleyebilirsiniz */
-  margin-bottom: 20px; /* Yazılar arası boşluk */
+  background: #ffffff;
+  color: #333333;
+}
+
+.medium-container .heading span {
+  color: #333333;
+}
+
+.medium-container .container {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 1rem;
   font-size: 15px;
-  font-weight: 800;
+}
+
+.medium-container .container .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.medium-container .container .row .medium-yazi {
+  flex: 0 0 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  background: #000000f5;
+  transition: 0.2s;
+}
+
+.medium-container a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.medium-container .container .row .medium-yazi:hover {
+  transform: translate(0, -2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.medium-container .container .row .medium-yazi .info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.medium-container .container .row .medium-yazi .info i {
+  font-size: 2.5rem;
+}
+
+.medium-container .container .row .medium-yazi .info span {
+  font-size: 1.6rem;
 }
