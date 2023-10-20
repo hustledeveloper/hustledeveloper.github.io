@@ -134,7 +134,7 @@ srtop.reveal('.contact .container .form-group',{delay: 400});
 
 
 // RSS beslemesinin URL'si (Medium kullanıcı adınızı burada değiştirin)
-const rssFeedUrl = 'https://medium.com/feed/@suyalcinkaya';
+const rssFeedUrl = 'https://medium.com/feed/@hustledeveloper';
 
 // RSS beslemesini çekme işlemi
 fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssFeedUrl}`)

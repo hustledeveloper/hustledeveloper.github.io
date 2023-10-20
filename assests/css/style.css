@@ -210,7 +210,7 @@ buradan arka plan rengini değiştirebilirsin
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 45%;
+  max-width: 25%;
   height: auto;
 }
 .home .image img{
@@ -348,6 +348,8 @@ buradan arka plan rengini değiştirebilirsin
 /* about section starts */
 .about {
   background: rgb(255, 255, 255);
+    min-height: 100vh;
+
 }
 .about .row{
   display: flex;
@@ -461,6 +463,8 @@ buradan arka plan rengini değiştirebilirsin
 /* skills section starts */
 .skills{
   background: linear-gradient(to bottom, #ffffff, #ffffff);
+  min-height: 100vh;
+
 }
 .skills h2{
   color: #000000;
@@ -485,7 +489,7 @@ buradan arka plan rengini değiştirebilirsin
 .skills .container .col{
   position: relative;
   width: 90%;
-  color: #fff;
+  color: #000000;
   margin-top: .5rem;
 }
 .skills .container .col .bar{
@@ -493,7 +497,7 @@ buradan arka plan rengini değiştirebilirsin
   padding: 10px;
   border-radius: 1rem;
   box-shadow: 0 4px 10px rgba(0,0,0,.2);
-  background: rgba( 0, 0, 22, 0.9);
+  background: #e7e4f8;
   transition: .2s;
 }
 .skills .container .col .bar:hover{
@@ -531,57 +535,45 @@ buradan arka plan rengini değiştirebilirsin
   border-radius: 4px;
 }
 
-.skills .container .col .bar .network:before {
-  width: 85%;
-  background: #e03d0b;
-}
-
-.skills .container .col .bar .cryptography:before {
-  width: 75%;
-  background: #2962ff;
-}
-
-.skills .container .col .bar .firewall:before {
+.skills .container .col .bar .java:before {
   width: 80%;
   background: #ffd900;
 }
 
-.skills .container .col .bar .penTesting:before {
-  width: 90%;
-  background: #22E7C3;
+.skills .container .col .bar .react:before {
+  width: 60%;
+  background: #f38b03;
 }
 
-.skills .container .col .bar .linux:before {
+.skills .container .col .bar .network:before {
   width: 70%;
   background: #ffd900;
 }
 
-.skills .container .col .bar .database:before {
-  width: 80%;
+.skills .container .col .bar .sql:before {
+  width: 75%;
   background: #f38b03;
 }
 
-.skills .container .col .bar .incident:before {
-  width: 75%;
-  background: #F96194;
+.skills .container .col .bar .linux:before {
+  width: 60%;
+  background: #f38b03;
 }
 
-.skills .container .col .bar .auditing:before {
-  width: 85%;
-  background: #22E7C3;
+.skills .container .col .bar .c:before {
+  width: 55%;
+  background: #ffd900;
 }
 
-.skills .container .col .bar .threat:before {
+.skills .container .col .bar .clean:before {
+  width: 60%;
+  background: #f38b03;
+}
+
+.skills .container .col .bar .ney:before {
   width: 80%;
-  background: #8054c7;
+  background: #ffd900;
 }
-
-.skills .container .col .bar .hacking:before {
-  width: 90%;
-  background: #e03d0b;
-}
-
-
 
 
 /* skills media queries starts*/
@@ -723,6 +715,8 @@ buradan arka plan rengini değiştirebilirsin
 .work{
   /* background: #010124; */
   background: linear-gradient(to bottom, #000031, #00002c);
+    min-height: 100vh;
+
 }
 .work h2{
   color: #fff;
@@ -1312,6 +1306,8 @@ form .button-area{
 .medium-container {
   background: #ffffff;
   color: #333333;
+    min-height: 100vh;
+
 }
 
 .medium-container .heading span {
@@ -1337,12 +1333,12 @@ form .button-area{
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-  background: #000000f5;
+  background: #e7e4f8;
   transition: 0.2s;
 }
 
 .medium-container a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
 }
 
