@@ -206,15 +206,17 @@ buradan arka plan rengini değiştirebilirsin
   padding-top: 1rem;
   z-index: 1;
 }
-.home .image{
-  flex: 1 1 40rem;
-  z-index: 1;
-  max-width: 35%;
-  max-height: 35%;
+.home .image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 45%;
+  height: auto;
 }
 .home .image img{
   width: 70%;
-  margin-left: 6rem;
+  margin-bottom: 10%;
+  margin-right: 10%;
   border-radius: 50%;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
