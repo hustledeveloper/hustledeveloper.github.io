@@ -42,23 +42,29 @@ document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
         document.title = "Ömer Faruk Eren";
-        $("#favicon").attr("href","assests/images/hero.jpg");
+        $("#favicon").attr("href","assests/images/hero0.png");
     }
     else {
         document.title = "Sayfama Hoşgeldiniz";
-        $("#favicon").attr("href","assests/images/hero.jpg");
+        $("#favicon").attr("href", "assests/images/hero0.png");
     }
 });
 
 
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
-        strings: ["Java", "Network Engineering", "Python", "PL/SQL", "REST APIs", "B2B Solutions"],
-        loop: true,
-        typeSpeed: 50,
-		backSpeed: 25,
-		backDelay: 500,
-      });
+      strings: [
+        "Backend Developer",
+        "Java",
+        "Spring Boot",
+        "Python, Flask, Fastapi",
+        "Kaliteye Hoşgeldiniz",
+      ],
+      loop: true,
+      typeSpeed: 50,
+      backSpeed: 25,
+      backDelay: 500,
+    });
 // <!-- typed js effect ends -->
 
 // <!-- tilt js effect starts -->
