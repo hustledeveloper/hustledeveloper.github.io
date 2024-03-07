@@ -59,6 +59,7 @@ function(){
         "Spring Boot",
         "Python, Flask, Fastapi",
         "Kaliteye Hoşgeldiniz",
+        "Sol üstteki böceğe tıkla!",
       ],
       loop: true,
       typeSpeed: 50,
