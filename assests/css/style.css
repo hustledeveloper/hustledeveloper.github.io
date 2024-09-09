@@ -536,42 +536,42 @@ buradan arka plan rengini değiştirebilirsin
 }
 
 .skills .container .col .bar .java:before {
-  width: 80%;
+  width: 100%;
   background: #ffd900;
 }
 
 .skills .container .col .bar .react:before {
-  width: 60%;
+  width: 100%;
   background: #f38b03;
 }
 
 .skills .container .col .bar .network:before {
-  width: 70%;
+  width: 100%;
   background: #ffd900;
 }
 
 .skills .container .col .bar .sql:before {
-  width: 75%;
+  width: 100%;
   background: #f38b03;
 }
 
 .skills .container .col .bar .linux:before {
-  width: 60%;
+  width: 100%;
   background: #f38b03;
 }
 
 .skills .container .col .bar .c:before {
-  width: 55%;
+  width: 100%;
   background: #ffd900;
 }
 
 .skills .container .col .bar .clean:before {
-  width: 60%;
+  width: 100%;
   background: #f38b03;
 }
 
 .skills .container .col .bar .ney:before {
-  width: 80%;
+  width: 100%;
   background: #ffd900;
 }
 
