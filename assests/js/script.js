@@ -54,10 +54,8 @@ function(){
 // <!-- typed js effect starts -->
     var typed = new Typed(".typing-text", {
       strings: [
-        "Backend Developer",
-        "Java",
-        "Spring Boot",
-        "Python, Flask, Fastapi",
+        "Full Stack Software Engineer",
+        "Java Kodu Yazılır",
         "Kaliteye Hoşgeldiniz",
         "Sol üstteki böceğe tıkla!",
       ],
@@ -147,7 +145,7 @@ const rssFeedUrl = 'https://medium.com/feed/@hustledeveloper';
 fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssFeedUrl}`)
     .then(response => response.json())
     .then(data => {
-        const yazilar = data.items.slice(0, 6); // İlk 8 yazıyı al
+        const yazilar = data.items.slice(0, 10); // İlk 8 yazıyı al
         // Her bir yazı için liste öğesi oluşturma ve sayfaya eklemek
         yazilar.forEach(yazi => {
             const baslik = yazi.title;
@@ -171,10 +169,14 @@ fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssFeedUrl}`)
         });
     });
 //müzik eklentisi
-    document.addEventListener("DOMContentLoaded", function() {
-      let player = document.getElementById("player");
-      let playButton = document.getElementById("playButton");
-      playButton.addEventListener("click", function() {
-        player.play();
-      });
+document.addEventListener("DOMContentLoaded", function() {
+    let player = document.getElementById("player");
+    let playButton = document.getElementById("playButton");
+    playButton.addEventListener("click", function() {
+        if (player.paused) {
+            player.play();
+        } else {
+            player.pause();
+        }
     });
+});
